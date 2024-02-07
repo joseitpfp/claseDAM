@@ -5,3 +5,4 @@
 5. git log
 6. git reset --hard HEAD~1  (reestablece al commit anterior)
 7. git reset --hard  21b3a83d2f3e433d214c5f72d1f89f3d12428a75  (reestablece a un commit específico)
+8. git checkout <hash_del_commit>  (reestablece a un commit sin perder el historial)
