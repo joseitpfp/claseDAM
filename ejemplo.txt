@@ -1,1 +1,7 @@
-hola hola mundo
+1. git status
+2. git add .
+3. git diff
+4. git commit -m "primerCommit"
+5. git log
+6. git reset --hard HEAD~1  (reestablece al commit anterior)
+7. git reset --hard  21b3a83d2f3e433d214c5f72d1f89f3d12428a75  (reestablece a un commit específico)
