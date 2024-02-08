@@ -15,3 +15,8 @@ git commit -a -m "nombre del commit"  -a hace el add, nos ahorramos un paso
 11. git checkout <nombre_de_rama> (cambiar rama)
 13. git branch (ver rama)
 14. git branch -a (ver todas las ramas)
+
+
+
+
+Esto lo creo en la rama master
