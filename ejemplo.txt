@@ -1,13 +1,16 @@
-
+HEAD ME DICE EL COMMIT EN EL QUE ESTOY
 1. git status
 2. git add .
 3. git diff
 4. git commit -m "primerCommit"
-5. git log
-6. git reset --hard HEAD~1  (reestablece al commit anterior)
+
+git commit -a -m "nombre del commit"  -a hace el add, nos ahorramos un paso
+
+5. git log       git log --oneline
+6. git revert HEAD --no-edit (REVIERTE EL ULTIMO COMMIT)
 7. git reset --hard  21b3a83d2f3e433d214c5f72d1f89f3d12428a75  (reestablece a un commit específico)
 8. git checkout <hash_del_commit>  (reestablece a un commit sin perder el historial)
-9. git checkout -b nueva_rama abcdef1234567890abcdef1234567890abcdef12
+9. git checkout -b nueva_rama abcdef1234567890abcdef1234567890abcdef12 (REESTABLECE A UN PUNTO Y CREA NUEVA RAMA)
 10. git branch <nombre_de_rama> (crear rama)
 11. git checkout <nombre_de_rama> (cambiar rama)
 13. git branch (ver rama)
